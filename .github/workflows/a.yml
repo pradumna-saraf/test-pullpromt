@@ -1,0 +1,23 @@
+name: PullPrompt
+
+on:
+  pull_request: # Works only on pull requests
+
+jobs:
+  pull_prompt:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read # Required for reading files
+      pull-requests: write # Required for commenting on PRs
+
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v4
+
+      - name: Running PullPrompt
+        uses: Pradumnasaraf/pullprompt@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }} # Required
+          user-prompt: "Write your prompt here" # Optional
+          gemini-api-key: ${{ secrets.GEMINI_API_KEY }} # Required
