@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Running PullPrompt
-        uses: Pradumnasaraf/pullprompt@v1
+        uses: Pradumnasaraf/pullprompt@v1.0.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Required
           user-prompt: "Share an open-source tip in 2 to 3 lines to help developers improve their workflow"
