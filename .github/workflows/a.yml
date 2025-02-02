@@ -19,5 +19,5 @@ jobs:
         uses: Pradumnasaraf/pullprompt@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Required
-          user-prompt: "Write your prompt here" # Optional
+          user-prompt: "Share an open-source tip in 2 to 3 lines to help developers improve their workflow"
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }} # Required
