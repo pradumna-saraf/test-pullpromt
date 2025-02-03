@@ -20,4 +20,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Required
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }} # Required
-          character-limit: 450 # Optional
+          character-limit: 500 # Optional
