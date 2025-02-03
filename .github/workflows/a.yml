@@ -21,4 +21,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Required
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }} # Required
           user-prompt: "Tell me about America"
-          character-limit: 500 # Optional
+          character-limit: 50 # Optional
