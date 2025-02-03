@@ -22,5 +22,5 @@ jobs:
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }} # Required
           user-prompt: "How to become a better developer?" # Optional
           gemini-model: "gemini-1.5-flash" # Optional
-          output-language: "spanish" # Optional
+          output-language: "japanese" # Optional
           character-limit: 450 # Optional
