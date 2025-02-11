@@ -21,7 +21,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Required
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }} # Required
           user-prompt: "How to become a better developer?" # Optional
-          gemini-model: "gemini-1.5-flash" # Optional
-          output-language: "spanish" # Optional
+          gemini-model: "gemini-2.0-flash" # Optional
+          output-language: "english" # Optional
           character-limit: 450 # Optional
           model-temp: 0.5 # Optional
